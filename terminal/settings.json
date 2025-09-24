@@ -1,0 +1,169 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "alwaysShowNotificationIcon": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{f3313fdc-be9e-432c-8252-9de5168c89de}",
+    "disableAnimations": false,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "One Half Dark (modified)",
+            "cursorShape": "bar",
+            "font": 
+            {
+                "face": "FiraCode Nerd Font Mono",
+                "size": 11,
+                "weight": "medium"
+            },
+            "opacity": 95,
+            "scrollbarState": "visible",
+            "tabTitle": "hax",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "icon": "C:\\Windows\\System32\\cmd.exe",
+                "name": "Prompt de Comando",
+                "padding": "10",
+                "scrollbarState": "visible"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/Azure.png",
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "backgroundImage": null,
+                "colorScheme": "One Half Dark (modified)",
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe -l -i",
+                "cursorShape": "underscore",
+                "elevate": false,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "builtinGlyphs": true,
+                    "cellHeight": "1.4",
+                    "colorGlyphs": true,
+                    "face": "UbuntuSansMono Nerd Font Mono",
+                    "size": 11,
+                    "weight": "medium"
+                },
+                "guid": "{f3313fdc-be9e-432c-8252-9de5168c89de}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\Git\\mingw64\\bin\\bash.exe",
+                "name": "bash",
+                "opacity": 95,
+                "padding": "10",
+                "scrollbarState": "hidden",
+                "suppressApplicationTitle": false,
+                "tabTitle": "hax",
+                "useAcrylic": true
+            },
+            {
+                "cursorShape": "underscore",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font Mono",
+                    "weight": "medium"
+                },
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "icon": "C:\\Windows\\System32\\bash.exe",
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{662a7ec5-f9e8-5412-9a4a-2837f8ce0418}",
+                "hidden": false,
+                "icon": "C:\\Windows\\System32\\bash.exe",
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#282C34",
+            "black": "#282C34",
+            "blue": "#61AFEF",
+            "brightBlack": "#5A6374",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E5C07B",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#D6D6D6",
+            "green": "#98C379",
+            "name": "One Half Dark (modified)",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D6D6D6",
+            "yellow": "#E5C07B"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": false,
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
