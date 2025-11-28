@@ -56,6 +56,7 @@ The `wallpapers/` directory contains anime-inspired dark compositions (e.g., `da
 - After tweaking settings via a GUI, re-export or copy the JSON back into this repo to keep Git history authoritative.
 - Re-run `oh-my-posh` after every theme change to ensure the schema version and palette fields validate.
 
-> [!SUCCESS]
-> With the repo synced and symlinked, provisioning a new machine becomes a matter of installing fonts, cloning these dotfiles, and launching the terminal—everything else snaps into place automatically.
+
+With the repo synced and symlinked, provisioning a new machine becomes a matter of installing fonts, cloning these dotfiles, and launching the terminal—everything else snaps into place automatically.
+
 
