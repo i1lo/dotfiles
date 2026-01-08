@@ -1,4 +1,4 @@
-## Dotfiles 
+## Dotfiles Overview
 
 ![Dotfiles Preview](assets/img/image.png)
 
