@@ -1,4 +1,6 @@
-## Dotfiles Overview
+## Dotfiles 
+
+![Dotfiles Preview](assets/img/image.png)
 
 These dotfiles bundle a cohesive Windows-first developer experience: an Oh My Posh prompt, tuned Windows Terminal and VS Code profiles, and a curated wallpaper set that keeps the workstation consistent across reinstalls.
 
@@ -8,12 +10,12 @@ These dotfiles bundle a cohesive Windows-first developer experience: an Oh My Po
 ## Repository Map
 
 | Path | Purpose |
-| --- | --- |
+| --- | --- |ne
 | `bash/theme.json` | Oh My Posh v3 theme with custom palette, Git metadata, and compact breadcrumb path segment. |
 | `terminal/settings.json` | Windows Terminal configuration with tailored keybindings, acrylic panes, and a modified One Half Dark scheme. |
 | `VSCode/settings.json` | Opinionated editor experience (ligatures off, slim cursor, compact explorer) plus icon/product themes. |
 | `VSCode/keybindings.json` | Single remap removing the default `ctrl+shift+k` delete-lines shortcut for safety. |
-| `VSCode/ui.css` | Optional custom CSS hook to restyle the VS Code UI labels and pane padding. |
+| `VSCode/vsSettings` | Optional custom CSS hook to restyle the VS Code UI labels and pane padding. |
 | `wallpapers/` | High-resolution anime/dark wallpapers aligned with the palette used in the terminal theme. |
 
 ## Quick Start

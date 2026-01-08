@@ -1,0 +1,2 @@
+*.vim linguist-detectable=fals
+.vimrc linguist-detectable=false

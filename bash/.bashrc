@@ -34,8 +34,6 @@ alias gcl='git clone'
 alias gr='git remote -v'
 alias gpm='git push origin main'
 alias gpl='git pull'
-alias gundo='git reset --soft HEAD~1' # undo last commit keeping changes
 
-
-eval "$(oh-my-posh init bash --config ~/AppData/Local/Programs/oh-my-posh/themes/omptheme.omp.json)"
+eval "$(oh-my-posh init bash --config ~/AppData/Local/Programs/oh-my-posh/themes/theme.omp.json)"
 

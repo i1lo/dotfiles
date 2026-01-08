@@ -1,0 +1,83 @@
+.monaco-workbench,
+.monaco-workbench *:not(.monaco-editor):not(.monaco-editor *) {
+ font-family: "LucidaConsole Nerd Font Mono", monospace !important;
+}
+
+.monaco-list-row .label-name {
+ font-family: "LucidaConsole Nerd Font Mono", monospace !important;
+ letter-spacing: 0.8px;
+}
+
+.tabs-container .tab .label-name {
+ font-family: "LucidaConsole Nerd Font Mono", monospace !important;
+ letter-spacing: 0.5px;
+}
+
+.statusbar-item,
+.quick-input-widget,
+.quick-input-widget * {
+ font-family: "LucidaConsole Nerd Font Mono", monospace !important;
+}
+
+
+#window-appicon,
+.window-appicon {
+ display: none !important;
+}
+
+.titlebar-left {
+ padding-left: 6px !important;
+}
+
+.titlebar-center {
+ justify-content: flex-start !important;
+}
+
+
+.window-title,
+#window-title {
+ position: absolute !important;
+ left: 10px;
+ top: 50%;
+ transform: translateY(-50%);
+ font-family: "LucidaConsole Nerd Font Mono", monospace !important;
+ letter-spacing: 1px;
+ opacity: 0.9;
+ white-space: nowrap;
+ pointer-events: none;
+}
+
+
+.monaco-workbench {
+ letter-spacing: 0.2px;
+}
+
+
+.monaco-icon-label {
+ font-family: "LucidaConsole Nerd Font Mono", monospace !important;
+}
+
+
+.monaco-icon-label {
+ display: inline-flex !important;
+ align-items: center;
+ justify-content: flex-start !important;
+ width: auto !important;
+}
+
+
+.monaco-icon-label .label-name {
+ flex: none !important;
+}
+
+.hax-star {
+ margin-left: 8px;
+ font-size: 14px;
+ color: #ffd700;
+ display: inline-block;
+ vertical-align: baseline;
+ pointer-events: none;
+ line-height: normal;
+ position: relative;
+ top: -1px;
+}
