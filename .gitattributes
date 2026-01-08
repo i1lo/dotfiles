@@ -1,2 +1,4 @@
-*.vim linguist-detectable=fals
+*.vim linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
 .vimrc linguist-detectable=false
