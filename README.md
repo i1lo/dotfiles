@@ -7,16 +7,6 @@ These dotfiles bundle a cohesive Windows-first developer experience: an Oh My Po
 > [!IMPORTANT]
 > Install the Nerd Fonts you reference (`FiraCode Nerd Font Mono`, `UbuntuSansMono Nerd Font Mono`, `Geist Mono`) before applying these settings, otherwise both the terminal glyphs and VS Code UI tweaks will render incorrectly.
 
-## Repository Map
-
-| Path | Purpose |
-| --- | --- |ne
-| `bash/theme.json` | Oh My Posh v3 theme with custom palette, Git metadata, and compact breadcrumb path segment. |
-| `terminal/settings.json` | Windows Terminal configuration with tailored keybindings, acrylic panes, and a modified One Half Dark scheme. |
-| `VSCode/settings.json` | Opinionated editor experience (ligatures off, slim cursor, compact explorer) plus icon/product themes. |
-| `VSCode/keybindings.json` | Single remap removing the default `ctrl+shift+k` delete-lines shortcut for safety. |
-| `VSCode/vsSettings` | Optional custom CSS hook to restyle the VS Code UI labels and pane padding. |
-| `wallpapers/` | High-resolution anime/dark wallpapers aligned with the palette used in the terminal theme. |
 
 ## Quick Start
 
